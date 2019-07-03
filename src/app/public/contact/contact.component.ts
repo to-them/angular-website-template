@@ -38,7 +38,7 @@ export class ContactComponent implements OnInit {
       }
 
       console.log(this.emailModel);
-      //`https://ayitech.org/api/apiemail/`
+      //`https://localhost:12345/api/email/`
       this._http.post(this.baseUrl + 'email/',
         {
           sender_email: this.emailModel.SenderEmail,
